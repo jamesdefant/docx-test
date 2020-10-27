@@ -7,7 +7,7 @@ Shading within docx currently only shades *text* -
 not *whole paragraphs*.
 
 The difference can be seen in the included document : 
-[CreatedInWord_365ProPlus_v2002.docx](https://github.com/jamesdefant/docx-test/blob/master/src/docs/CreatedInWord_ProPlus_v2002.docx)
+[CreatedInWord_365ProPlus_v2002.docx](https://github.com/jamesdefant/docx-test/blob/master/src/docs/CreatedInWord_365ProPlus_v2002.docx)
 , which, as it's name suggests, was created in Word.
 
 ---
