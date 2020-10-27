@@ -1,4 +1,4 @@
-#docx test app
+# docx test app
 
 A simple [docx](https://github.com/dolanmiu/docx) 
 testing app created with Create-React-App 
@@ -11,7 +11,7 @@ The difference can be seen in the included document :
 , which, as it's name suggests, was created in Word.
 
 ---
-###To create shading in Word:
+### To create shading in Word:
 1. Make your selection:
    
    To create **shaded _text_**, select *only* the text you want to shade. 
