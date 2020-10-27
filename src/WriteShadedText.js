@@ -8,31 +8,22 @@ export function WriteShadedText(e) {
   const doc = new Document();
 
   doc.addSection({
-    headers: {
-      default: new Header({
+    properties: {},
+    children: [
+      new Paragraph({
         children: [
-          new Paragraph({
-            children: [
-              new TextRun({
-                text: "This is a sentence that is shaded",
-                shading: {
-                  type: ShadingType.CLEAR,
-                  color: "000000",
-                  fill: "cfd7e6",
-                },
-              }),
-            ],
+          new TextRun({
+            text: "This is a sentence that is shaded",
+            shading: {
+              type: ShadingType.CLEAR,
+              color: "000000",
+              fill: "cfd7e6",
+            },
           }),
         ],
       }),
-    },
-    children: [],
+    ],
   });
-
-  // Packer.toBuffer(doc)
-  //     .then((buffer) => {
-  //       fs.writeFileSync("My Document.docx", buffer);
-  //     });
 
   Packer.toBlob(doc).then((blob) => {
     console.log(blob)
